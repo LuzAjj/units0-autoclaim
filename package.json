@@ -1,0 +1,13 @@
+{
+  "name": "unit0-autoclaim",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "claim": "node src/claim.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "node-fetch": "^3.3.2"
+  }
+}
