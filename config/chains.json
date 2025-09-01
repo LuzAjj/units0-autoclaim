@@ -1,0 +1,27 @@
+{
+  "name": "unit0",
+  "chainIdExpected": 88811,
+  "rpcEnv": "RPC_UNIT0",
+  "explorerEnv": "EXPLORER_BASE",
+  "targets": [
+    {
+      "label": "UnitsClaimV1",
+      "address": "0xC8C3072325970c79EA639dDeb746c610e0A692E8",
+      "preferredTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]  // native marker jika fungsi perlu token
+    },
+    {
+      "label": "PossibleVesting",
+      "address": "0x077A4ACB4B8596Aa499862e69C7DDa65dbD4E33A",
+      "preferredTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]
+    }
+  ],
+  "viewFns": ["claimable(address)", "claimableOf(address)", "available(address)", "vested(address)"],
+  "claimFnCandidates": [
+    "claim()",
+    "claim(address)",
+    "claim(address,address)",
+    "claim(address,address,uint256,bytes)",
+    "claim(address,uint256,bytes)",
+    "claim(bytes)"
+  ]
+}
