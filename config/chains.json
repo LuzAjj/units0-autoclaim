@@ -7,7 +7,7 @@
     {
       "label": "UnitsClaimV1",
       "address": "0xC8C3072325970c79EA639dDeb746c610e0A692E8",
-      "preferredTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]  // native marker jika fungsi perlu token
+      "preferredTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"] 
     },
     {
       "label": "PossibleVesting",
